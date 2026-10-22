@@ -1,0 +1,401 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101812">
+  <meta name="description"
+    content="Minecraft Y-level references, portal quantities, and an interactive 39-item pack checklist.">
+  <title>Numbers & Pack List | Overworld to End</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div id="scroll-progress" aria-hidden="true"></div>
+  <header class="site-header">
+    <div class="nav-shell">
+      <a class="brand" href="index.html" aria-label="Overworld to End home"><span class="brand-mark"
+          aria-hidden="true"></span><span><span class="brand-title">OVERWORLD<br>TO END</span><span
+            class="brand-subtitle">a survival field guide</span></span></a>
+      <div class="nav-right">
+        <button class="menu-toggle" type="button" data-menu-toggle aria-label="Toggle navigation"
+          aria-expanded="false">☰</button>
+        <nav class="site-nav" aria-label="Main navigation"><a href="index.html">Home</a>
+          <a href="overworld.html">Overworld</a>
+          <a href="nether.html">Nether</a>
+          <a href="end.html">The End</a>
+          <a href="numbers.html" aria-current="page">Numbers</a>
+        </nav>
+        <button class="theme-toggle" type="button" data-theme-toggle aria-label="Switch theme"
+          aria-pressed="false">☀</button>
+      </div>
+    </div>
+  </header>
+  <main id="main">
+    <section class="page-hero">
+      <div class="shell page-hero-inner">
+        <div>
+          <p class="kicker">Quick reference · Keep this page nearby</p>
+          <h1>NUMBERS TO<br><span class="accent">REMEMBER.</span></h1>
+          <p class="lede">Coordinates, portal quantities, mining references, and a checklist you can use before each
+            stage of your journey.</p>
+        </div>
+        <div class="page-emblem" aria-hidden="true"><span class="emblem-icon"> <img src="https://imgs.search.brave.com/2u8b1AXbcQhlr0qx-fxG-4yZJNFTTyvodgrdou3mmik/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9jZG4u/YXBleG1pbmVjcmFm/dGhvc3RpbmcuY29t/L2ltZy91cGxvYWRz/LzIwMjAvMTIvMTAy/MDA4MDUvdGhlLWZh/cmxhbmRzLmpwZw" alt=""></span></div>
+      </div>
+    </section>
+    <section class="section shell reveal" id="coordinates">
+      <div class="section-heading">
+        <div>
+          <p class="kicker">Quick reference</p>
+          <h2 class="pixel-heading">COORDINATES &amp; <span class="accent">Y-LEVELS</span></h2>
+        </div>
+        <p>Use these as common guideposts in modern Minecraft. Terrain and ore generation can vary.</p>
+      </div>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>Reference</th>
+              <th>Coordinate / amount</th>
+              <th>Why it matters</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Surface example</td>
+              <td><code>Y 63</code></td>
+              <td>A familiar surface-height reference, not a fixed world surface.</td>
+            </tr>
+            <tr>
+              <td>Iron reference</td>
+              <td><code>Y 16</code></td>
+              <td>A useful level for iron in many ordinary Overworld areas; iron also generates at other elevations.
+              </td>
+            </tr>
+            <tr>
+              <td>Deepslate transition</td>
+              <td><code>Near Y 0</code></td>
+              <td>Deepslate becomes more common as you descend through the transition zone.</td>
+            </tr>
+            <tr>
+              <td>Diamond reference</td>
+              <td><code>Y -59</code></td>
+              <td>A popular depth for diamond mining in modern worlds; watch for lava and caves.</td>
+            </tr>
+            <tr>
+              <td>Bedrock floor</td>
+              <td><code>Near Y -64</code></td>
+              <td>The bottom boundary area of the Overworld.</td>
+            </tr>
+            <tr>
+              <td>Minimum cornerless portal</td>
+              <td><code>10 obsidian</code></td>
+              <td>Frame corners can be omitted from a standard Nether portal.</td>
+            </tr>
+            <tr>
+              <td>End portal frame</td>
+              <td><code>12 sockets</code></td>
+              <td>Some generated frames already contain Eyes of Ender.</td>
+            </tr>
+            <tr>
+              <td>Eyes of Ender</td>
+              <td><code>12+ recommended</code></td>
+              <td>Extra Eyes help account for throws that break and portal sockets that need filling.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="depth-panel" style="margin-top:20px">
+        <div class="depth-stack">
+          <div class="depth-band depth-surface"><span>Surface</span><small>Y 63 example</small></div>
+          <div class="depth-band depth-stone"><span>Upper stone</span><small>Y 50–16</small></div>
+          <div class="depth-band depth-iron"><span>Iron guidepost</span><small>Y 16</small></div>
+          <div class="depth-band depth-deep"><span>Deepslate region</span><small>near Y 0 and below</small></div>
+          <div class="depth-band depth-diamond"><span>Diamond guidepost</span><small>Y -59</small></div>
+          <div class="depth-band depth-bedrock"><span>Bedrock floor</span><small>near Y -64</small></div>
+        </div>
+        <div>
+          <p class="kicker">Depth cheat sheet</p>
+          <h3>Lower is not always safer.</h3>
+          <p class="muted">Diamond becomes more common at lower levels, but lava, large cave systems, and falls can turn
+            a mining trip into a rescue mission. Bring light, food, and blocks for a safe route.</p>
+          <div class="callout warning"><strong>Coordinates:</strong> In Java Edition, enable coordinates through the
+            appropriate debug display/settings. In Bedrock Edition, enable “Show Coordinates” in world settings where
+            available.</div>
+        </div>
+      </div>
+    </section>
+    <section class="section shell reveal" id="quantities">
+      <div class="section-heading">
+        <div>
+          <p class="kicker">Crafting targets</p>
+          <h2 class="pixel-heading">HOW MUCH SHOULD <span class="accent">I BRING?</span></h2>
+        </div>
+        <p>Practical starting amounts, not strict requirements. Your world's portal generation and play style may change
+          what you need.</p>
+      </div>
+      <div class="mini-grid">
+        <div class="mini-card"><strong>10 obsidian</strong><span>Minimum for a standard cornerless Nether portal
+            frame.</span></div>
+        <div class="mini-card"><strong>12 Eyes</strong><span>Maximum portal sockets to fill, though some can generate
+            pre-filled.</span></div>
+        <div class="mini-card"><strong>12–16 Eyes</strong><span>A useful target for travelling and activating a portal,
+            with a buffer for breakage.</span></div>
+        <div class="mini-card"><strong>2+ pickaxes</strong><span>Bring a spare for long mining trips; exact needs depend
+            on durability and gear.</span></div>
+        <div class="mini-card"><strong>Food stack</strong><span>Carry enough to recover health and handle detours.
+            Longer trips need more.</span></div>
+        <div class="mini-card"><strong>Extra blocks</strong><span>Useful for bridges, cover, quick pillars, and making
+            routes back obvious.</span></div>
+      </div>
+    </section>
+    <section class="section shell reveal" id="pack-list">
+      <div class="section-heading">
+        <div>
+          <p class="kicker">Saved in your browser</p>
+          <h2 class="pixel-heading">THE COMPLETE <span class="accent">PACK LIST</span></h2>
+        </div>
+        <p>39 unique reminders. Check items as you pack; your progress is saved locally on this device.</p>
+      </div>
+      <div class="pack-toolbar">
+        <div style="flex:1;min-width:220px">
+          <div class="pack-meter" data-checklist-meter="all-pack">0 / 39 complete</div>
+          <div class="pack-progress"><span data-checklist-progress="all-pack"></span></div>
+        </div><button class="button secondary" type="button" data-reset-all-pack>RESET ALL ITEMS</button>
+      </div>
+      <div class="pack-groups">
+        <section class="pack-group">
+          <h3>Tools & combat <span class="item-count" data-checklist-meter="pack-tools-combat">0 / 7 checked</span></h3>
+          <ul class="check-list">
+            <li><input type="checkbox" id="pack-tools-combat-sword" value="sword"
+                data-save-list="pack-tools-combat"><label for="pack-tools-combat-sword">Sword</label></li>
+            <li><input type="checkbox" id="pack-tools-combat-pickaxe" value="pickaxe"
+                data-save-list="pack-tools-combat"><label for="pack-tools-combat-pickaxe">Pickaxe</label></li>
+            <li><input type="checkbox" id="pack-tools-combat-axe" value="axe" data-save-list="pack-tools-combat"><label
+                for="pack-tools-combat-axe">Axe</label></li>
+            <li><input type="checkbox" id="pack-tools-combat-shovel" value="shovel"
+                data-save-list="pack-tools-combat"><label for="pack-tools-combat-shovel">Shovel</label></li>
+            <li><input type="checkbox" id="pack-tools-combat-bow-or-crossbow" value="bow-or-crossbow"
+                data-save-list="pack-tools-combat"><label for="pack-tools-combat-bow-or-crossbow">Bow or
+                crossbow</label></li>
+            <li><input type="checkbox" id="pack-tools-combat-arrows" value="arrows"
+                data-save-list="pack-tools-combat"><label for="pack-tools-combat-arrows">Arrows</label></li>
+            <li><input type="checkbox" id="pack-tools-combat-shield" value="shield"
+                data-save-list="pack-tools-combat"><label for="pack-tools-combat-shield">Shield</label></li>
+          </ul>
+        </section>
+        <section class="pack-group">
+          <h3>Armor & utility <span class="item-count" data-checklist-meter="pack-armor-utility">0 / 6 checked</span>
+          </h3>
+          <ul class="check-list">
+            <li><input type="checkbox" id="pack-armor-utility-helmet" value="helmet"
+                data-save-list="pack-armor-utility"><label for="pack-armor-utility-helmet">Helmet</label></li>
+            <li><input type="checkbox" id="pack-armor-utility-chestplate" value="chestplate"
+                data-save-list="pack-armor-utility"><label for="pack-armor-utility-chestplate">Chestplate</label></li>
+            <li><input type="checkbox" id="pack-armor-utility-leggings" value="leggings"
+                data-save-list="pack-armor-utility"><label for="pack-armor-utility-leggings">Leggings</label></li>
+            <li><input type="checkbox" id="pack-armor-utility-boots" value="boots"
+                data-save-list="pack-armor-utility"><label for="pack-armor-utility-boots">Boots</label></li>
+            <li><input type="checkbox" id="pack-armor-utility-water-bucket" value="water-bucket"
+                data-save-list="pack-armor-utility"><label for="pack-armor-utility-water-bucket">Water bucket</label>
+            </li>
+            <li><input type="checkbox" id="pack-armor-utility-flint-and-steel" value="flint-and-steel"
+                data-save-list="pack-armor-utility"><label for="pack-armor-utility-flint-and-steel">Flint and
+                steel</label></li>
+          </ul>
+        </section>
+        <section class="pack-group">
+          <h3>Food & healing <span class="item-count" data-checklist-meter="pack-food-healing">0 / 3 checked</span></h3>
+          <ul class="check-list">
+            <li><input type="checkbox" id="pack-food-healing-cooked-food" value="cooked-food"
+                data-save-list="pack-food-healing"><label for="pack-food-healing-cooked-food">Cooked food</label></li>
+            <li><input type="checkbox" id="pack-food-healing-golden-apples-if-available"
+                value="golden-apples-if-available" data-save-list="pack-food-healing"><label
+                for="pack-food-healing-golden-apples-if-available">Golden apples if available</label></li>
+            <li><input type="checkbox" id="pack-food-healing-potions-if-available" value="potions-if-available"
+                data-save-list="pack-food-healing"><label for="pack-food-healing-potions-if-available">Potions if
+                available</label></li>
+          </ul>
+        </section>
+        <section class="pack-group">
+          <h3>Mining supplies <span class="item-count" data-checklist-meter="pack-mining-supplies">0 / 3 checked</span>
+          </h3>
+          <ul class="check-list">
+            <li><input type="checkbox" id="pack-mining-supplies-torches" value="torches"
+                data-save-list="pack-mining-supplies"><label for="pack-mining-supplies-torches">Torches</label></li>
+            <li><input type="checkbox" id="pack-mining-supplies-spare-pickaxe" value="spare-pickaxe"
+                data-save-list="pack-mining-supplies"><label for="pack-mining-supplies-spare-pickaxe">Spare
+                pickaxe</label></li>
+            <li><input type="checkbox" id="pack-mining-supplies-crafting-table" value="crafting-table"
+                data-save-list="pack-mining-supplies"><label for="pack-mining-supplies-crafting-table">Crafting
+                table</label></li>
+          </ul>
+        </section>
+        <section class="pack-group">
+          <h3>Building & travel <span class="item-count" data-checklist-meter="pack-building-travel">0 / 2
+              checked</span></h3>
+          <ul class="check-list">
+            <li><input type="checkbox" id="pack-building-travel-building-blocks" value="building-blocks"
+                data-save-list="pack-building-travel"><label for="pack-building-travel-building-blocks">Building
+                blocks</label></li>
+            <li><input type="checkbox" id="pack-building-travel-boat-for-travel" value="boat-for-travel"
+                data-save-list="pack-building-travel"><label for="pack-building-travel-boat-for-travel">Boat for
+                travel</label></li>
+          </ul>
+        </section>
+        <section class="pack-group">
+          <h3>Nether trip <span class="item-count" data-checklist-meter="pack-nether-trip">0 / 3 checked</span></h3>
+          <ul class="check-list">
+            <li><input type="checkbox" id="pack-nether-trip-gold-armor-piece" value="gold-armor-piece"
+                data-save-list="pack-nether-trip"><label for="pack-nether-trip-gold-armor-piece">Gold armor
+                piece</label></li>
+            <li><input type="checkbox" id="pack-nether-trip-fire-resistance-potion-if-available"
+                value="fire-resistance-potion-if-available" data-save-list="pack-nether-trip"><label
+                for="pack-nether-trip-fire-resistance-potion-if-available">Fire resistance potion if available</label>
+            </li>
+            <li><input type="checkbox" id="pack-nether-trip-extra-blocks-for-bridges" value="extra-blocks-for-bridges"
+                data-save-list="pack-nether-trip"><label for="pack-nether-trip-extra-blocks-for-bridges">Extra blocks
+                for bridges</label></li>
+          </ul>
+        </section>
+        <section class="pack-group">
+          <h3>Stronghold search <span class="item-count" data-checklist-meter="pack-stronghold-search">0 / 3
+              checked</span></h3>
+          <ul class="check-list">
+            <li><input type="checkbox" id="pack-stronghold-search-eyes-of-ender" value="eyes-of-ender"
+                data-save-list="pack-stronghold-search"><label for="pack-stronghold-search-eyes-of-ender">Eyes of
+                Ender</label></li>
+            <li><input type="checkbox" id="pack-stronghold-search-extra-food" value="extra-food"
+                data-save-list="pack-stronghold-search"><label for="pack-stronghold-search-extra-food">Extra
+                food</label></li>
+            <li><input type="checkbox" id="pack-stronghold-search-torches-for-marking-rooms"
+                value="torches-for-marking-rooms" data-save-list="pack-stronghold-search"><label
+                for="pack-stronghold-search-torches-for-marking-rooms">Torches for marking rooms</label></li>
+          </ul>
+        </section>
+        <section class="pack-group">
+          <h3>Dragon fight <span class="item-count" data-checklist-meter="pack-dragon-fight">0 / 3 checked</span></h3>
+          <ul class="check-list">
+            <li><input type="checkbox" id="pack-dragon-fight-bow-and-arrows" value="bow-and-arrows"
+                data-save-list="pack-dragon-fight"><label for="pack-dragon-fight-bow-and-arrows">Bow and arrows</label>
+            </li>
+            <li><input type="checkbox" id="pack-dragon-fight-strong-armor" value="strong-armor"
+                data-save-list="pack-dragon-fight"><label for="pack-dragon-fight-strong-armor">Strong armor</label></li>
+            <li><input type="checkbox" id="pack-dragon-fight-blocks-for-climbing-or-cover"
+                value="blocks-for-climbing-or-cover" data-save-list="pack-dragon-fight"><label
+                for="pack-dragon-fight-blocks-for-climbing-or-cover">Blocks for climbing or cover</label></li>
+          </ul>
+        </section>
+        <section class="pack-group">
+          <h3>Survival basics <span class="item-count" data-checklist-meter="pack-survival-basics">0 / 3 checked</span>
+          </h3>
+          <ul class="check-list">
+            <li><input type="checkbox" id="pack-survival-basics-bed-for-overworld-travel"
+                value="bed-for-overworld-travel" data-save-list="pack-survival-basics"><label
+                for="pack-survival-basics-bed-for-overworld-travel">Bed for Overworld travel</label></li>
+            <li><input type="checkbox" id="pack-survival-basics-extra-food-stack" value="extra-food-stack"
+                data-save-list="pack-survival-basics"><label for="pack-survival-basics-extra-food-stack">Extra food
+                stack</label></li>
+            <li><input type="checkbox" id="pack-survival-basics-ender-chest-if-available"
+                value="ender-chest-if-available" data-save-list="pack-survival-basics"><label
+                for="pack-survival-basics-ender-chest-if-available">Ender chest if available</label></li>
+          </ul>
+        </section>
+        <section class="pack-group">
+          <h3>Storage & return <span class="item-count" data-checklist-meter="pack-storage-return">0 / 3 checked</span>
+          </h3>
+          <ul class="check-list">
+            <li><input type="checkbox" id="pack-storage-return-empty-inventory-slots" value="empty-inventory-slots"
+                data-save-list="pack-storage-return"><label for="pack-storage-return-empty-inventory-slots">Empty
+                inventory slots</label></li>
+            <li><input type="checkbox" id="pack-storage-return-backup-equipment" value="backup-equipment"
+                data-save-list="pack-storage-return"><label for="pack-storage-return-backup-equipment">Backup
+                equipment</label></li>
+            <li><input type="checkbox" id="pack-storage-return-a-written-home-coordinate"
+                value="a-written-home-coordinate" data-save-list="pack-storage-return"><label
+                for="pack-storage-return-a-written-home-coordinate">A written home coordinate</label></li>
+          </ul>
+        </section>
+        <section class="pack-group">
+          <h3>Optional extras <span class="item-count" data-checklist-meter="pack-optional-extras">0 / 2 checked</span>
+          </h3>
+          <ul class="check-list">
+            <li><input type="checkbox" id="pack-optional-extras-shears" value="shears"
+                data-save-list="pack-optional-extras"><label for="pack-optional-extras-shears">Shears</label></li>
+            <li><input type="checkbox" id="pack-optional-extras-ender-pearls" value="ender-pearls"
+                data-save-list="pack-optional-extras"><label for="pack-optional-extras-ender-pearls">Ender
+                pearls</label></li>
+          </ul>
+        </section>
+        <section class="pack-group">
+          <h3>Final checks <span class="item-count" data-checklist-meter="pack-final-checks">0 / 1 checked</span></h3>
+          <ul class="check-list">
+            <li><input type="checkbox" id="pack-final-checks-confirm-the-route-home" value="confirm-the-route-home"
+                data-save-list="pack-final-checks"><label for="pack-final-checks-confirm-the-route-home">Confirm the
+                route home</label></li>
+          </ul>
+        </section>
+      </div>
+      <p class="small-note" style="margin-top:15px">The list contains general reminders and optional items. You do not
+        need every item for every adventure or game mode.</p>
+    </section>
+    <section class="section shell reveal">
+      <div class="resource-band">
+        <div>
+          <h3>READY FOR THE NEXT STAGE?</h3>
+          <p>Jump back to the route and continue your journey.</p>
+        </div>
+        <div class="button-row"><a class="button" href="overworld.html">OVERWORLD</a><a class="button warm"
+            href="nether.html">NETHER</a><a class="button purple" href="end.html">THE END</a></div>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div><a class="footer-title" href="index.html">OVERWORLD TO END</a>
+        <p>An unofficial fan-made Minecraft survival guide. Minecraft is a trademark of Mojang Studios and Microsoft,
+          which are not involved with this project.</p>
+      </div>
+      <nav class="footer-links" aria-label="Footer navigation"><a href="index.html">Home</a><a
+          href="overworld.html">Overworld</a><a href="nether.html">Nether</a><a href="end.html">The End</a><a
+          href="numbers.html">Numbers &amp; Pack List</a><a href="#main">Back to top ↑</a></nav>
+    </div>
+  </footer>
+  <!-- Persistent pixel music player. Put your own music file at ./music.mp3. -->
+  <aside class="pixel-music-bar" id="musicBar" aria-label="Website music player">
+    <div class="music-player-top">
+      <div class="music-pixel-icon" aria-hidden="true"><span>♫</span></div>
+      <div class="music-player-info">
+        <span class="music-eyebrow">OVERWORLD RADIO // OST</span>
+        <strong class="music-track-title" id="musicTrackTitle">YOUR MUSIC HERE</strong>
+        <span class="music-status" id="musicStatus" aria-live="polite">ADD music.mp3 TO THE WEBSITE FOLDER</span>
+      </div>
+      <div class="music-player-actions">
+        <button class="music-control music-play" type="button" id="musicPlayPause" aria-label="Play music" title="Play music">▶</button>
+        <button class="music-control music-collapse" type="button" id="musicCollapse" aria-label="Collapse music player" aria-expanded="true" title="Collapse player">−</button>
+      </div>
+    </div>
+
+    <div class="music-player-details" id="musicPlayerDetails">
+      <div class="music-seek-row">
+        <span class="music-time" id="musicCurrentTime">0:00</span>
+        <input class="music-range music-seek" type="range" id="musicProgress" min="0" max="100" value="0" step="0.1" aria-label="Music progress">
+        <span class="music-time" id="musicDuration">0:00</span>
+      </div>
+      <div class="music-volume-row">
+        <span class="music-volume-label">VOL</span>
+        <input class="music-range music-volume" type="range" id="musicVolume" min="0" max="1" value="0.45" step="0.01" aria-label="Music volume">
+        <span class="music-volume-percent" id="musicVolumePercent">45%</span>
+        <span class="music-file-note">FILE: music.mp3</span>
+      </div>
+    </div>
+
+    <audio id="siteMusic" src="music.mp3" preload="metadata" loop></audio>
+  </aside>
+
+</body>
+
+</html>

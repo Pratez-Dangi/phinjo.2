@@ -1,0 +1,272 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101812">
+  <meta name="description" content="Learn first-day survival and mining basics in the Minecraft Overworld.">
+  <title>Overworld | Overworld to End</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div id="scroll-progress" aria-hidden="true"></div>
+  <header class="site-header">
+    <div class="nav-shell">
+      <a class="brand" href="index.html" aria-label="Overworld to End home"><span class="brand-mark"
+          aria-hidden="true"></span><span><span class="brand-title">OVERWORLD<br>TO END</span><span
+            class="brand-subtitle">a survival field guide</span></span></a>
+      <div class="nav-right">
+        <button class="menu-toggle" type="button" data-menu-toggle aria-label="Toggle navigation"
+          aria-expanded="false">☰</button>
+        <nav class="site-nav" aria-label="Main navigation"><a href="index.html">Home</a>
+          <a href="overworld.html" aria-current="page">Overworld</a>
+          <a href="nether.html">Nether</a>
+          <a href="end.html">The End</a>
+          <a href="numbers.html">Numbers</a>
+        </nav>
+        <button class="theme-toggle" type="button" data-theme-toggle aria-label="Switch theme"
+          aria-pressed="false">☀</button>
+      </div>
+    </div>
+  </header>
+  <main id="main">
+    <section class="page-hero">
+      <div class="shell page-hero-inner">
+        <div>
+          <p class="kicker">Stages 01–02 · The starting dimension</p>
+          <h1>FROM FIRST NIGHT<br><span class="accent">TO DIAMONDS.</span></h1>
+          <p class="lede">Start with the basics, secure a place to sleep, then head underground with the right tools and
+            a safe way back.</p>
+        </div>
+        <div class="page-emblem" aria-hidden="true"><span class="emblem-icon"><img src="https://cdn.discordapp.com/attachments/1385924947431657635/1562818109239337092/maxresdefault.png?ex=6adb5f48&is=6ada0dc8&hm=ba8dd8e4c0821760367b0b355c2016e8bdd93eba44527b356f74551b6430e031&" alt=""></span></div>
+      </div>
+    </section>
+    <section class="section shell reveal" id="first-day">
+      <div class="section-heading">
+        <div>
+          <p class="kicker">Stage 01</p>
+          <h2 class="pixel-heading">SURVIVE THE <span class="accent">FIRST DAY</span></h2>
+        </div>
+        <p>Your first goal is not a perfect base. It is a safe night, a reliable food source, and a working set of
+          tools.</p>
+      </div>
+      <div class="content-grid">
+        <div class="stack">
+          <article class="panel">
+            <div class="panel-title"><span class="step-number">01</span>
+              <div>
+                <h3>Collect wood and craft tools</h3>
+                <p class="muted">Turn logs into planks and sticks. A crafting table unlocks most early recipes.</p>
+              </div>
+            </div>
+            <ul class="check-list">
+              <li>Collect several logs from nearby trees.</li>
+              <li>Craft planks, a crafting table, and wooden tools.</li>
+              <li>Use a wooden pickaxe to collect cobblestone, then upgrade to stone tools.</li>
+              <li>Make a furnace and cook food when possible.</li>
+            </ul>
+          </article>
+          <article class="panel">
+            <div class="panel-title"><span class="step-number">02</span>
+              <div>
+                <h3>Find food and shelter</h3>
+                <p class="muted">A small, well-lit shelter is enough for the first night.</p>
+              </div>
+            </div>
+            <ul class="check-list">
+              <li>Collect food from safe nearby sources.</li>
+              <li>Build a compact shelter or block off a cave entrance.</li>
+              <li>Light the area to reduce hostile mob spawns nearby.</li>
+              <li>Gather three wool and make a bed when you can.</li>
+            </ul>
+          </article>
+          <div class="callout warning"><strong>Watch out:</strong> Do not assume a cave is safe because its entrance is
+            bright. Carry a shield and keep an escape route in mind.</div>
+        </div>
+        <aside class="stack">
+          <div class="panel">
+            <h3>First-day pack check</h3>
+            <p class="muted">Tick what you have ready. This checklist saves its state in your browser.</p>
+            <p class="pack-meter" data-checklist-meter="first-day">0 / 10 complete</p>
+            <div class="pack-progress"><span data-checklist-progress="first-day"></span></div>
+            <div style="margin-top:15px">
+              <ul class="check-list">
+                <li><input type="checkbox" id="first-day-crafting-table" value="crafting-table"
+                    data-save-list="first-day"><label for="first-day-crafting-table">Crafting table</label></li>
+                <li><input type="checkbox" id="first-day-stone-pickaxe" value="stone-pickaxe"
+                    data-save-list="first-day"><label for="first-day-stone-pickaxe">Stone pickaxe</label></li>
+                <li><input type="checkbox" id="first-day-stone-sword" value="stone-sword"
+                    data-save-list="first-day"><label for="first-day-stone-sword">Stone sword</label></li>
+                <li><input type="checkbox" id="first-day-shield" value="shield" data-save-list="first-day"><label
+                    for="first-day-shield">Shield</label></li>
+                <li><input type="checkbox" id="first-day-bed" value="bed" data-save-list="first-day"><label
+                    for="first-day-bed">Bed</label></li>
+                <li><input type="checkbox" id="first-day-food-for-the-journey" value="food-for-the-journey"
+                    data-save-list="first-day"><label for="first-day-food-for-the-journey">Food for the journey</label>
+                </li>
+                <li><input type="checkbox" id="first-day-torches" value="torches" data-save-list="first-day"><label
+                    for="first-day-torches">Torches</label></li>
+                <li><input type="checkbox" id="first-day-water-bucket" value="water-bucket"
+                    data-save-list="first-day"><label for="first-day-water-bucket">Water bucket</label></li>
+                <li><input type="checkbox" id="first-day-furnace" value="furnace" data-save-list="first-day"><label
+                    for="first-day-furnace">Furnace</label></li>
+                <li><input type="checkbox" id="first-day-extra-blocks" value="extra-blocks"
+                    data-save-list="first-day"><label for="first-day-extra-blocks">Extra blocks</label></li>
+              </ul>
+            </div><button class="button secondary" type="button" data-reset-list="first-day"
+              style="margin-top:16px">RESET CHECKLIST</button>
+          </div>
+          <div class="tip-card">
+            <h3>Field note</h3>
+            <p>Keep your coordinates or leave distinctive markers if you travel far from your base. Getting back home is
+              part of the plan.</p>
+          </div>
+        </aside>
+      </div>
+    </section>
+    <section class="section shell reveal" id="mining">
+      <div class="section-heading">
+        <div>
+          <p class="kicker">Stage 02</p>
+          <h2 class="pixel-heading">MINE IRON &amp; <span class="accent">DIAMONDS</span></h2>
+        </div>
+        <p>Upgrade your gear before searching for diamonds. Ore distribution changes with elevation, and a little
+          preparation prevents long, risky trips.</p>
+      </div>
+      <div class="content-grid">
+        <div class="stack">
+          <article class="panel">
+            <div class="panel-title"><span class="step-number">03</span>
+              <div>
+                <h3>Smelt iron and upgrade</h3>
+                <p class="muted">Iron is useful for armor, shields, buckets, and a pickaxe that can mine diamond ore.
+                </p>
+              </div>
+            </div>
+            <ul class="check-list">
+              <li>Mine iron ore and smelt it in a furnace.</li>
+              <li>Craft an iron pickaxe before collecting diamonds.</li>
+              <li>Make a shield and upgrade your armor when resources allow.</li>
+              <li>Keep a spare pickaxe and enough food for the return trip.</li>
+            </ul>
+          </article>
+          <article class="panel">
+            <div class="panel-title"><span class="step-number">04</span>
+              <div>
+                <h3>Search lower caves carefully</h3>
+                <p class="muted">For modern Overworld generation, diamonds are more common at lower Y-levels, with Y -59
+                  a common mining reference.</p>
+              </div>
+            </div>
+            <div class="depth-stack">
+              <div class="depth-band depth-surface"><span>Surface</span><small>Y 63 reference</small></div>
+              <div class="depth-band depth-iron"><span>Iron reference</span><small>Y 16</small></div>
+              <div class="depth-band depth-deep"><span>Deepslate region</span><small>around Y 0 and below</small></div>
+              <div class="depth-band depth-diamond"><span>Diamond reference</span><small>Y -59</small></div>
+              <div class="depth-band depth-bedrock"><span>Bedrock</span><small>near Y -64</small></div>
+            </div>
+            <p class="small-note" style="margin-top:12px">These are guideposts rather than guarantees. Ore can generate
+              at other levels, and caves or lava may change your route.</p>
+          </article>
+          <div class="callout warning"><strong>Before building a Nether portal:</strong> Obsidian requires a diamond
+            pickaxe to drop as an item. A minimum portal uses 10 obsidian blocks if the corners are omitted.</div>
+        </div>
+        <aside class="stack">
+          <div class="panel">
+            <h3>Mining pack check</h3>
+            <p class="muted">Use this before a serious mining trip.</p>
+            <p class="pack-meter" data-checklist-meter="mining">0 / 8 complete</p>
+            <div class="pack-progress"><span data-checklist-progress="mining"></span></div>
+            <div style="margin-top:15px">
+              <ul class="check-list">
+                <li><input type="checkbox" id="mining-iron-pickaxe-for-diamond-ore" value="iron-pickaxe-for-diamond-ore"
+                    data-save-list="mining"><label for="mining-iron-pickaxe-for-diamond-ore">Iron pickaxe for diamond
+                    ore</label></li>
+                <li><input type="checkbox" id="mining-iron-armor-or-better" value="iron-armor-or-better"
+                    data-save-list="mining"><label for="mining-iron-armor-or-better">Iron armor or better</label></li>
+                <li><input type="checkbox" id="mining-spare-pickaxe" value="spare-pickaxe"
+                    data-save-list="mining"><label for="mining-spare-pickaxe">Spare pickaxe</label></li>
+                <li><input type="checkbox" id="mining-torches-or-other-light-source"
+                    value="torches-or-other-light-source" data-save-list="mining"><label
+                    for="mining-torches-or-other-light-source">Torches or other light source</label></li>
+                <li><input type="checkbox" id="mining-food-and-shield" value="food-and-shield"
+                    data-save-list="mining"><label for="mining-food-and-shield">Food and shield</label></li>
+                <li><input type="checkbox" id="mining-water-bucket-for-the-overworld"
+                    value="water-bucket-for-the-overworld" data-save-list="mining"><label
+                    for="mining-water-bucket-for-the-overworld">Water bucket for the Overworld</label></li>
+                <li><input type="checkbox" id="mining-blocks-for-bridging" value="blocks-for-bridging"
+                    data-save-list="mining"><label for="mining-blocks-for-bridging">Blocks for bridging</label></li>
+                <li><input type="checkbox" id="mining-storage-space-for-loot" value="storage-space-for-loot"
+                    data-save-list="mining"><label for="mining-storage-space-for-loot">Storage space for loot</label>
+                </li>
+              </ul>
+            </div><button class="button secondary" type="button" data-reset-list="mining" style="margin-top:16px">RESET
+              CHECKLIST</button>
+          </div>
+          <div class="tip-card">
+            <h3>Next stop</h3>
+            <p>When you have the right gear and a safe way home, prepare for your first trip through the Nether gate.
+            </p><a class="text-link" href="nether.html#portal">Continue to the Nether →</a>
+          </div>
+        </aside>
+      </div>
+    </section>
+    <section class="section shell reveal">
+      <div class="resource-band">
+        <div>
+          <h3>CHECK YOUR COORDINATES</h3>
+          <p>Keep handy references for mining levels, portal ingredients, and the final fight.</p>
+        </div><a class="button" href="numbers.html">OPEN NUMBERS &amp; PACK LIST ↗</a>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div><a class="footer-title" href="index.html">OVERWORLD TO END</a>
+        <p>An unofficial fan-made Minecraft survival guide. Minecraft is a trademark of Mojang Studios and Microsoft,
+          which are not involved with this project.</p>
+      </div>
+      <nav class="footer-links" aria-label="Footer navigation"><a href="index.html">Home</a><a
+          href="overworld.html">Overworld</a><a href="nether.html">Nether</a><a href="end.html">The End</a><a
+          href="numbers.html">Numbers &amp; Pack List</a><a href="#main">Back to top ↑</a></nav>
+    </div>
+  </footer>
+  <!-- Persistent pixel music player. Put your own music file at ./music.mp3. -->
+  <aside class="pixel-music-bar" id="musicBar" aria-label="Website music player">
+    <div class="music-player-top">
+      <div class="music-pixel-icon" aria-hidden="true"><span>♫</span></div>
+      <div class="music-player-info">
+        <span class="music-eyebrow">OVERWORLD RADIO // OST</span>
+        <strong class="music-track-title" id="musicTrackTitle">YOUR MUSIC HERE</strong>
+        <span class="music-status" id="musicStatus" aria-live="polite">ADD music.mp3 TO THE WEBSITE FOLDER</span>
+      </div>
+      <div class="music-player-actions">
+        <button class="music-control music-play" type="button" id="musicPlayPause" aria-label="Play music" title="Play music">▶</button>
+        <button class="music-control music-collapse" type="button" id="musicCollapse" aria-label="Collapse music player" aria-expanded="true" title="Collapse player">−</button>
+      </div>
+    </div>
+
+    <div class="music-player-details" id="musicPlayerDetails">
+      <div class="music-seek-row">
+        <span class="music-time" id="musicCurrentTime">0:00</span>
+        <input class="music-range music-seek" type="range" id="musicProgress" min="0" max="100" value="0" step="0.1" aria-label="Music progress">
+        <span class="music-time" id="musicDuration">0:00</span>
+      </div>
+      <div class="music-volume-row">
+        <span class="music-volume-label">VOL</span>
+        <input class="music-range music-volume" type="range" id="musicVolume" min="0" max="1" value="0.45" step="0.01" aria-label="Music volume">
+        <span class="music-volume-percent" id="musicVolumePercent">45%</span>
+        <span class="music-file-note">FILE: music.mp3</span>
+      </div>
+    </div>
+
+    <audio id="siteMusic" src="music.mp3" preload="metadata" loop></audio>
+  </aside>
+
+</body>
+
+</html>
